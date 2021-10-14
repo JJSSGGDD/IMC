@@ -83,19 +83,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btncalcular"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="operar"
             android:text="@string/calcular_imc" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btneliminar"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="borrar"
             android:text="@string/eliminar_datos" />
     </LinearLayout>
 
