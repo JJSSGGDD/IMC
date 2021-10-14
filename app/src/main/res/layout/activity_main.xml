@@ -26,14 +26,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="PESO"
+            android:textSize="18SP"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/txtpeso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="en Kilogramos"
             android:inputType="numberDecimal" />
 
     </LinearLayout>
@@ -48,14 +51,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="Altura"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/txtaltura"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="en Metros"
             android:inputType="numberDecimal" />
     </LinearLayout>
 
@@ -66,17 +72,19 @@
 
         <Button
             android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Calcular IMC" />
 
         <Button
             android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Eliminar datos" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,22 +93,25 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtimc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="IMC:"
+            android:textSize="24" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txtdescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Descripcion"
+            android:textSize="24" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/txtideal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Su peso ideal:"
+            android:textSize="24" />
 
         <ImageView
             android:id="@+id/imageView"
