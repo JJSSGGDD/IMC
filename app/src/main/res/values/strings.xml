@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">IMC</string>
+    <string name="indice_de_masa_corporal">INDICE DE MASA CORPORAL</string>
+    <string name="peso">PESO</string>
+    <string name="en_kilogramos">en Kilogramos</string>
+    <string name="altura">Altura</string>
+    <string name="en_metros">en Metros</string>
+    <string name="calcular_imc">Calcular IMC</string>
+    <string name="eliminar_datos">Eliminar datos</string>
+    <string name="imc">IMC:</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="su_peso_ideal">Su peso ideal:</string>
+    <string name="imc_descripcion">IMC DESCRIPCION</string>
 </resources>

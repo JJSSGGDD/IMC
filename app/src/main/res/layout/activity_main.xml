@@ -12,57 +12,69 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="INDICE DE MASA CORPORAL"
+        android:text="@string/indice_de_masa_corporal"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/purple_700" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:scrollbarSize="48dp">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="PESO"
-            android:textSize="18SP"
+            android:gravity="center_horizontal"
+            android:text="@string/peso"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtpeso"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="en Kilogramos"
-            android:inputType="numberDecimal" />
+            android:hint="@string/en_kilogramos"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:scrollbarSize="48dp"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/darker_gray" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:scrollbarSize="48dp">
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Altura"
+            android:gravity="center_horizontal"
+            android:text="@string/altura"
             android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtaltura"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="en Metros"
-            android:inputType="numberDecimal" />
+            android:hint="@string/en_metros"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:scrollbarSize="48dp"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/darker_gray" />
     </LinearLayout>
 
     <LinearLayout
@@ -76,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Calcular IMC" />
+            android:text="@string/calcular_imc" />
 
         <Button
             android:id="@+id/button2"
@@ -84,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Eliminar datos" />
+            android:text="@string/eliminar_datos" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,27 +108,28 @@
             android:id="@+id/txtimc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="IMC:"
-            android:textSize="24" />
+            android:text="@string/imc"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txtdescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Descripcion"
-            android:textSize="24" />
+            android:text="@string/descripcion"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txtideal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Su peso ideal:"
-            android:textSize="24" />
+            android:text="@string/su_peso_ideal"
+            android:textSize="24sp" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/imc_descripcion"
             app:srcCompat="@drawable/imagenimc" />
     </LinearLayout>
 
